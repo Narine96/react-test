@@ -1,0 +1,107 @@
+.leftMenu {
+    min-height: 100vh;
+    width: 15%;
+    padding: 0 3%;
+    text-align: left;
+}
+
+.menu-light {
+    background-color: white;
+    border-right: 1px solid #E1E1E1;
+}
+
+.menu-dark {
+    background-color: #1E1E1E;
+    border-right: 1px solid gray;
+}
+.leftMenu ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.menu-heading {
+    font-size: 20px;
+}
+
+.heading-dark {
+    color: #C3C3C3;
+}
+
+.heading-light {
+    color: #696969;
+}
+
+#settings {
+    margin-top: 45px;
+}
+
+.menu-list {
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 20px;
+    margin-left: -20px;
+}
+
+.menu-list:hover {
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.active {
+    background-color:black;
+    border-radius: 10px;
+    color: white !important;
+}
+
+.li-dark {
+    color: #C3C3C3;
+}
+
+.li-light {
+    color: #3C3C3C;
+}
+
+.book-count {
+    height: 30px;
+    width: 40px;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.book-count-dark {
+    background-color: #1E1E1E;
+    color: #C3C3C3;
+}
+
+.book-count-light {
+    color:black;
+    background-color: #F9F9F9;
+}
+
+.my_books {
+    display: flex;
+    align-items: center;
+    width: 105px;
+    justify-content: space-between;
+}
+
+.add_books {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.mode {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 115px;
+}

@@ -1,0 +1,32 @@
+.content {
+    width: 85%;
+    padding: 0 2%;
+}
+
+.content-dark {
+    background-color: black;
+    color: white;
+}
+
+.content-light {
+    background-color: white;
+}
+
+.mobile-theme {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .content {
+        width: 100%;
+        padding: 0 2%;
+    } 
+    .mobile-theme {
+        display: block;
+        float: right;
+        margin-right: 2%;
+    }
+    .MuiFormControl-root {
+        width: 100% !important;
+    }
+  }

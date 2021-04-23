@@ -1,0 +1,146 @@
+.card {
+    height: 400px;
+    width: 260px;
+    border-radius: 40px;
+    position: relative;
+}
+
+.book-content {
+    margin-top: 20px;
+    width: 260px;
+    cursor: pointer;
+}
+
+.book-footer h2 {
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.book-footer p {
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 16px;
+    color: #696969;
+}
+
+.book-cover {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.book-genre {
+    position: absolute;
+    right: 8%;
+    bottom: 4%;
+    padding: 13px 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(47,47,47,0.8);
+    border-radius: 12px;
+    color: white;
+}
+
+.book-readed {
+    height: 35px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245,245,245,0.2);
+    border-radius: 12px;
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    left: 4%;
+    top: 3%;
+}
+
+.modal {
+    height: 80%;
+    width: 35%;
+    border-radius: 50px;
+    background-color: white;
+    margin: 3% auto;
+    padding: 2%;
+    border: none;
+    outline: none;
+}
+
+.close-modal {
+    float: right;
+    cursor: pointer;
+}
+
+.modal-img {
+    margin: 20px auto;
+    border-radius: 25px;
+    height: 25%;
+    width: 38%;
+}
+
+.modal-book {
+    width: 100%;
+    text-align: center;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.modal-title {
+    margin: 0;
+}
+
+.modal-author {
+    font-weight: 600;
+    font-size: 19px;
+    color: #696969;
+}
+
+.modal-description {
+    padding: 0 25px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.cardBooks {
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .modal {
+        height: 85%;
+        width: 85%;
+        padding: 4%;
+    }
+    .modal-author {
+        margin: 0;
+    }
+    .modal-footer {
+        width: 90%;
+        height: 9%;
+    }
+    .modal-img {
+        width: 38%;
+    }
+    .card {
+        height: 285px;
+        width: 100%;
+    }
+    .book-content {
+        width: 190px;
+    }
+  }
